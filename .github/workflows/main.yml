@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Executar script
-        run: python apy_request.py
+        run: python api_request.py
 
       - name: Configurar Git
         run: |
