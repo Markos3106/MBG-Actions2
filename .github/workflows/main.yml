@@ -22,8 +22,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Executar script de temperatura
-        run: python script_temperatura.py
+      - name: Executar script
+        run: python apy_request.py
 
       - name: Configurar Git
         run: |
