@@ -1,8 +1,7 @@
 name: Temperatura Diària
 
 on:
-  schedule:
-    - cron: '*/5 * * * *' 
+  
 
 jobs:
   actualitzar_temperatura:
